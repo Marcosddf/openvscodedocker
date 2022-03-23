@@ -13,4 +13,7 @@ It edits the workspace defined in the Github repository. This workspace has this
 
 After the file is edited, it should be commited back to Github.
 
+*Note:*  the overview section was completely edited and commited using the created VS Code instance.
+
+
 
