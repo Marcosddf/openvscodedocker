@@ -1,7 +1,7 @@
 # openvscodedocker
-Testing a docker file for Open VS Code
+Testing a docker file for Open VS Code, Theia and default gitpod
 
-The link below constructs an OpenVSCode image to edit this Github project. It the image was already created, it reuses already installed components. 
+The link below constructs an OpenVSCode image to edit this Github project. The image was already created, it reuses already installed components.  It also tests images of Theia and default gitPod editor.
 
 The image could be executed locally using Docker directly.
 
@@ -9,15 +9,19 @@ The image could be executed locally using Docker directly.
 
 # Overview
 
-It creates a docker image based on a docker file (.gitpod.Dockerfile_full) of OpenVSCode server and initializes it locally. It uses an existing image of Open VS Code. 
+It creates a docker image based on a docker file (.gitpod.Dockerfile_full) of OpenVSCode server. It uses an existing image of Open VS Code. 
 
-The **gitpod.yml** and the **docker file** can be configured to add any kind of extension or to specify which components need to be installed.
+The **gitpod.yml** and the **docker file(s)** can be configured to add any kind of extension supported by the GitPod execution server or to specify which components need to be installed.
 
-It edits the workspace defined in the Github repository. This workspace has this README file, but it could e any supported workspace (Java, C, Python, C++, etc.)
+It edits the workspace defined in the Github repository. This workspace has this README file, but it could be any supported workspace (Java, C, Python, C++, etc.)
 
 After the file is edited, it should be commited back to Github.
 
-*Note:*  the overview section was completely edited and commited using the created VS Code instance.
+A self-hosted git pod would be needed if additional functionalities are required, or to keep 'control' over the repository.
+
+*Note:*  the overview section was edited and commited using the created VS Code instance.
+
+
 
 
 
